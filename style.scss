@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+figure{
+        img{
+            width: 500px;
+            
+        }
+
+}
+section{
+    border: solid 2px black;
+    width: 500px;
+    height: 280px;
+    color: white;
+    background-image: url("./img/netflix1.jpg");
+    // para colocar a imagem dentro do parenteses é necessário colocar as "".
+    // >> background-size: 200px;
+    // >> configura o tamanho da imagem de fundo
+    background-repeat: no-repeat;
+    //para não repetir a imagem de fundo. O repeat-x é só para horixonta e repeat-y para verifical
+    background-size: cover;
+    // autoajuste da imagem ao tamanho da caixa mas que pode cortas umas partes da imagem
+    // >> background-size: contain;
+    // >> vai deixar a imagem do tamanho dela original
+    }
